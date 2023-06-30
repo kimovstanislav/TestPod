@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A7614FC4B0CE135496B3E5D17C01159 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1182A5D941493F5905CBEFC04AE8F4CF /* Pods-TestPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6BC6EDC6DC9C5BFC3E2C24BC02EFD73 /* Pods-TestPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28782D0D2A4EF36100601FB8 /* TestArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28782D0C2A4EF36100601FB8 /* TestArithmetic.swift */; };
+		28782D0F2A4F0A6E00601FB8 /* TestArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28782D0E2A4F0A6E00601FB8 /* TestArithmetic.swift */; };
 		28C8C69E2A34E799002743C5 /* TestPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C8C69D2A34E799002743C5 /* TestPrint.swift */; };
 		35ABF83918611CF998D6920CDB2E9BD9 /* TestPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C9C0BA3EEB2C95FF0F89F2ADEB810B /* TestPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		765F9E80997E9A70563FFF0754AA3A79 /* Pods-TestPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C49B8E22D6927847FBB1CCCAC0E33DFE /* Pods-TestPod_Tests-dummy.m */; };
@@ -42,7 +42,7 @@
 		0C92884507603FE9963BB56023A07810 /* Pods-TestPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPod_Example-Info.plist"; sourceTree = "<group>"; };
 		112B894B9C2941D587A15F0C2D663EAD /* Pods-TestPod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestPod_Tests"; path = Pods_TestPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21DBEF1D9B135BA64028BC0020EEC647 /* TestPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestPod.debug.xcconfig; sourceTree = "<group>"; };
-		28782D0C2A4EF36100601FB8 /* TestArithmetic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestArithmetic.swift; sourceTree = "<group>"; };
+		28782D0E2A4F0A6E00601FB8 /* TestArithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestArithmetic.swift; path = TestPod/Classes/TestArithmetic.swift; sourceTree = "<group>"; };
 		28C1C35476302208423C640FD6CA58E0 /* Pods-TestPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestPod_Tests-Info.plist"; sourceTree = "<group>"; };
 		28C8C69D2A34E799002743C5 /* TestPrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestPrint.swift; path = TestPod/Classes/TestPrint.swift; sourceTree = "<group>"; };
 		2A3CCC79E10B11A2062FCCDCC865C1E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				28C8C69D2A34E799002743C5 /* TestPrint.swift */,
-				28782D0C2A4EF36100601FB8 /* TestArithmetic.swift */,
+				28782D0E2A4F0A6E00601FB8 /* TestArithmetic.swift */,
 				935D88D93874A80B7140ADC24524590D /* Pod */,
 				6D84D59291DA548B5194C67CC0B54D0B /* Support Files */,
 			);
@@ -372,7 +372,7 @@
 			files = (
 				E94BF88CA5DB90D6418CA7BAD997BDA1 /* TestPod-dummy.m in Sources */,
 				28C8C69E2A34E799002743C5 /* TestPrint.swift in Sources */,
-				28782D0D2A4EF36100601FB8 /* TestArithmetic.swift in Sources */,
+				28782D0F2A4F0A6E00601FB8 /* TestArithmetic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
