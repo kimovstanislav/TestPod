@@ -25,4 +25,12 @@ class Tests: XCTestCase {
         }
     }
     
+  func testArithmetic() {
+    let testClass = TestArithmetic()
+    let a = 2
+    let b = 3
+    let result = testClass.add(a: a, b: b)
+    XCTAssertEqual(result, a + b)
+  }
+
 }
